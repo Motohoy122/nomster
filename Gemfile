@@ -76,3 +76,6 @@ gem 'will_paginate', '~> 3.1', '>= 3.1.7'
 
 # will_paginate styling
 gem 'bootstrap-will_paginate', '~> 1.0'
+
+# Simple form gem
+gem 'simple_form'
