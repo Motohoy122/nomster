@@ -82,3 +82,6 @@ gem 'simple_form'
 
 # Font Awesome gem
 gem "font-awesome-rails"
+
+# User authentication gem
+gem 'devise'
