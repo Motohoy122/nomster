@@ -85,3 +85,8 @@ gem "font-awesome-rails"
 
 # User authentication gem
 gem 'devise'
+
+# Geocode changes addresses to Latitude and Longitude Coordinates
+gem "geocoder"
+
+gem "figaro"
