@@ -32,7 +32,7 @@
   <% end %>
 
   <br />
-  
+
   <div class="float-right">
     
     <% if current_user && current_user == @place.user %>
@@ -43,3 +43,9 @@
   </div>
   </div>
 </div>
+<div class="clear"></div>
+<%= simple_form_for @comment, url: '#' do |f| %>
+  <%= f.input :message %>
+  <%= f.input :rating %>
+  <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
+<% end %>
