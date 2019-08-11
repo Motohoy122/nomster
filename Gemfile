@@ -90,3 +90,9 @@ gem 'devise'
 gem "geocoder"
 
 gem "figaro"
+
+# Gem for uploading files
+gem 'carrierwave', '~> 1.0'
+
+# Communicates with AWS
+gem 'fog-aws', '~> 0.7.6'

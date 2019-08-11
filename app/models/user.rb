@@ -6,4 +6,6 @@ class User < ApplicationRecord
 
   has_many :places
   has_many :comments
+  # this may be has_one
+  has_many :photos
 end
