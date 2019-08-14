@@ -10,7 +10,7 @@
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
   margin-bottom: 15px;
-  padding: 20px;
+  padding: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,4 +69,19 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+}
+
+
+#place-image {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#place-image div img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
