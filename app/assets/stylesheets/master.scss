@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap');
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -31,7 +32,8 @@ body {
 
 .navbar-inverse .navbar-brand {
   color: #E3E85A;
-  font-family: 'chunkfiveregular', sans-serif;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
   font-size: 26px;
 }
 
