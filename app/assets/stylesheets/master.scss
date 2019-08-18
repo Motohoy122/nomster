@@ -75,7 +75,6 @@ blockquote p {
 
 
 #place-image {
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,9 +87,14 @@ blockquote p {
     min-height: 100%;
 }
 
+#placebox {
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  height: 550px;
+  height: 650px;
    width: 100%;
+   text-align: center;
 }
 
 .carousel-item.active, 
@@ -116,4 +120,12 @@ blockquote p {
 
 .carousel {
   box-shadow: 0px 3px 8px #2a2a2a;
+
 }
+
+#carouselExampleIndicators {
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 5px solid black;
+}
+
