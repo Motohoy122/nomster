@@ -1,21 +1,21 @@
 <div class="booyah-box">
   <div class="row">
-    <div class="col-4">
+    <div class="col-4" id="user-photo">
       <%= image_tag 'user.png' %>
     </div>
 
-    <div class="col-8">
-      <h2><%= @user.email %></h2>
-      <h3>Member Since: <%= @user.created_at.strftime("%B %d, %Y") %></h3>
-      <h4><%= @user.comments.count %> total comments</h4>
-      <h4><%= @user.comments.where(rating: '5_stars').count %> total 5 star reviews</h4>
+    <div class="col-8" id="user-info">
+      <span id="user-email"> <h4><%= @user.email %></h4> </span>
+      <h4><b>Member Since:</b> <span id="creation-time"><%= @user.created_at.strftime("%B %d, %Y") %></span></h4>
+      <h4><b><span id="user-comment"><%= @user.comments.count %></span> total comments</b></h4>
+      <h4><b><span id="user-comment"><%= @user.comments.where(rating: '5_stars').count %></span> total 5 star reviews</b></h4>
     </div>
   </div>
   <div class="clear"></div>
 </div>
 
 <br /><br />
-<h1 class="text-center">My Comments</h1>
+<h2 class="text-center">My Comments</h2>
 <br /><br />
 <div class="row">
   <% @user.comments.each do |comment| %>

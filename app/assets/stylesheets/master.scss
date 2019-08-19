@@ -129,3 +129,24 @@ blockquote p {
   border: 5px solid black;
 }
 
+#user-photo {
+  padding-left: 11%;
+}
+
+#user-info {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#creation-time {
+  text-transform: capitalize;
+}
+
+#user-email {
+  color: #0066ff;
+  font-weight: normal;
+}
+
+#user-comment {
+  color: red; 
+}
